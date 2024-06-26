@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="date"] {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
